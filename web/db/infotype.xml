@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+  <com.analyze.model.bean.InfoType> 
+    <id>2</id>  
+    <name>新闻</name> 
+  </com.analyze.model.bean.InfoType>
+  <com.analyze.model.bean.InfoType> 
+    <id>3</id>  
+    <name>论坛</name> 
+  </com.analyze.model.bean.InfoType>
+  <com.analyze.model.bean.InfoType> 
+    <id>4</id>  
+    <name>博客</name> 
+  </com.analyze.model.bean.InfoType>
+  <com.analyze.model.bean.InfoType> 
+    <id>5</id>  
+    <name>境外</name> 
+  </com.analyze.model.bean.InfoType>
+  <com.analyze.model.bean.InfoType> 
+    <id>6</id>  
+    <name>视频</name> 
+  </com.analyze.model.bean.InfoType>
+  <com.analyze.model.bean.InfoType> 
+    <id>7</id>  
+    <name>微博</name> 
+  </com.analyze.model.bean.InfoType>
+  <com.analyze.model.bean.InfoType> 
+    <id>8</id>  
+    <name>RSS</name> 
+  </com.analyze.model.bean.InfoType>
+  <com.analyze.model.bean.InfoType> 
+    <id>9</id>  
+    <name>维基</name> 
+  </com.analyze.model.bean.InfoType>
+  <com.analyze.model.bean.InfoType> 
+    <id>10</id>  
+    <name>普通网页</name> 
+  </com.analyze.model.bean.InfoType>
+</root>

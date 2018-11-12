@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root> 
+  <com.analyze.model.bean.persist.Category> 
+    <id>0</id>  
+    <name>其他类</name>  
+    <docvec/> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>1</id>  
+    <name>灶具类</name>  
+    <docvec>厨具 50 炊具 50 灶具 50 烤箱 50 灶台 50 油烟机 50 灶 50 燃具 50 煤气灶 50 灶具 50 燃气灶 50 西门子灶 50 炊具 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>2</id>  
+    <name>冰箱类</name>  
+    <docvec>雪柜 50 冷柜 50 冰柜 50 冰箱 50 冷藏 50 冰箱 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>3</id>  
+    <name>洗衣机类</name>  
+    <docvec>洗衣机 50 干洗机 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>4</id>  
+    <name>洗碗机类</name>  
+    <docvec>洗碗机 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>5</id>  
+    <name>吸尘器类</name>  
+    <docvec>吸尘器 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>6</id>  
+    <name>咖啡机类</name>  
+    <docvec>咖啡机 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>7</id>  
+    <name>桑塔纳</name>  
+    <docvec>普桑 50 santana 50 桑塔纳 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>8</id>  
+    <name>帕萨特</name>  
+    <docvec>帕萨特 50 passat 50 新领驭 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>9</id>  
+    <name>POLO</name>  
+    <docvec>POLO 50 CROSSPOLO 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>10</id>  
+    <name>朗逸</name>  
+    <docvec>朗逸 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>11</id>  
+    <name>途观</name>  
+    <docvec>途观 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>12</id>  
+    <name>途安</name>  
+    <docvec>途安 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>13</id>  
+    <name>天越TANTUS</name>  
+    <docvec>天越TANTUS 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>14</id>  
+    <name>明锐</name>  
+    <docvec>明锐 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>15</id>  
+    <name>昊锐</name>  
+    <docvec>昊锐 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>16</id>  
+    <name>晶锐</name>  
+    <docvec>晶锐 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>17</id>  
+    <name>天越</name>  
+    <docvec>天越TANTUS 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>18</id>  
+    <name>电动工具</name>  
+    <docvec>博世电动 100 bosch 100 工具 101 电动 101 切割机 101 手电钻 101 起子机 101 角磨机 101</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>19</id>  
+    <name>热水器类</name>  
+    <docvec>热水器 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>20</id>  
+    <name>酒柜类</name>  
+    <docvec>酒柜 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>21</id>  
+    <name>油烟机类</name>  
+    <docvec>油烟机 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>22</id>  
+    <name>烤箱类</name>  
+    <docvec>烤箱 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>23</id>  
+    <name>消毒柜类</name>  
+    <docvec>消毒柜 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>24</id>  
+    <name>蒸气炉类</name>  
+    <docvec>蒸气炉 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>25</id>  
+    <name>微波炉类</name>  
+    <docvec>微波炉 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>26</id>  
+    <name>烘干机类</name>  
+    <docvec>烘干机 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>27</id>  
+    <name>刑事审判</name>  
+    <docvec>刑事 50 抢劫 50 偷窃 50 绑架 50 赌博 50 勒索 50 偷盗 50 劫杀 50 诈骗 50 强奸 50 打架斗殴 50 黑社会 50 黑帮 50 强暴 50 轮奸 50 敲诈 50 吸毒 50 毒品 50 大麻 50 冰毒 50 走私 50 勒死 50 海洛因 50 白粉 50 摇头丸 50 非法拘禁 50 袭击 50 绑匪 50 轻伤 50 重伤 50 死刑 50 腐败 50 贪污 50 死刑 50 死缓 50 有期徒刑 50 无期徒刑 50 公诉 50 缓刑 50 行贿受贿 50 受贿案 50 诈骗 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>28</id>  
+    <name>行政审判</name>  
+    <docvec>行政复议 50 国家赔偿 50 状告政府 50 程序违法 50 行政审判 50 民告官 50 官民纠纷 50 滥用职权 50 玩忽职守 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>29</id>  
+    <name>民商事审判</name>  
+    <docvec>民事诉讼 50 邻里 50 违约 50 破产 50 婚姻 50 涉少 50 调解 50 抚养 50 房产 50 婚姻 50 合同纠纷 50 肖像权 50 名誉权 50 知识产权 50 版权 50 盗版 50 商标 50 调解 50 物业 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>30</id>  
+    <name>法院执行</name>  
+    <docvec>法院 100 中院 100 高院 100 赖帐 101 申请执行人 101 老赖 101 执行 101 执行局 101 执行难 101 破产申请 101 申请人 101 被执行人 101 逾期不履行 101 拒执 101 执结 101</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>31</id>  
+    <name>法院动态</name>  
+    <docvec>法院 100 中院 100 高院 100 创新 101 廉政 101 政绩 101 成绩 101 表彰 101 学习 101 大讨论 101 措施 101 工作动态 101 出台意见 101 出台政策 101 发文 101 司法 101 工作机制 101 贯彻 101 文件 101 条例 101 科学发展 101 改革 101 发挥职能 101 机遇 101 任免 101 任命 101 座谈会 101 工作保障 101</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>32</id>  
+    <name>能动司法</name>  
+    <docvec>能动司法 50</docvec> 
+  </com.analyze.model.bean.persist.Category>  
+  <com.analyze.model.bean.persist.Category> 
+    <id>0</id>  
+    <name>其他类</name>  
+    <docvec/> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>1</id>  
+    <name>灶具类</name>  
+    <docvec>厨具 50 炊具 50 灶具 50 烤箱 50 灶台 50 油烟机 50 灶 50 燃具 50 煤气灶 50 灶具 50 燃气灶 50 西门子灶 50 炊具 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>2</id>  
+    <name>冰箱类</name>  
+    <docvec>雪柜 50 冷柜 50 冰柜 50 冰箱 50 冷藏 50 冰箱 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>3</id>  
+    <name>洗衣机类</name>  
+    <docvec>洗衣机 50 干洗机 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>4</id>  
+    <name>洗碗机类</name>  
+    <docvec>洗碗机 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>5</id>  
+    <name>吸尘器类</name>  
+    <docvec>吸尘器 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>6</id>  
+    <name>咖啡机类</name>  
+    <docvec>咖啡机 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>7</id>  
+    <name>桑塔纳</name>  
+    <docvec>普桑 50 santana 50 桑塔纳 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>8</id>  
+    <name>帕萨特</name>  
+    <docvec>帕萨特 50 passat 50 新领驭 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>9</id>  
+    <name>POLO</name>  
+    <docvec>POLO 50 CROSSPOLO 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>10</id>  
+    <name>朗逸</name>  
+    <docvec>朗逸 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>11</id>  
+    <name>途观</name>  
+    <docvec>途观 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>12</id>  
+    <name>途安</name>  
+    <docvec>途安 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>13</id>  
+    <name>天越TANTUS</name>  
+    <docvec>天越TANTUS 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>14</id>  
+    <name>明锐</name>  
+    <docvec>明锐 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>15</id>  
+    <name>昊锐</name>  
+    <docvec>昊锐 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>16</id>  
+    <name>晶锐</name>  
+    <docvec>晶锐 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>17</id>  
+    <name>天越</name>  
+    <docvec>天越TANTUS 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>18</id>  
+    <name>电动工具</name>  
+    <docvec>博世电动 100 bosch 100 工具 101 电动 101 切割机 101 手电钻 101 起子机 101 角磨机 101</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>19</id>  
+    <name>热水器类</name>  
+    <docvec>热水器 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>20</id>  
+    <name>酒柜类</name>  
+    <docvec>酒柜 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>21</id>  
+    <name>油烟机类</name>  
+    <docvec>油烟机 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>22</id>  
+    <name>烤箱类</name>  
+    <docvec>烤箱 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>23</id>  
+    <name>消毒柜类</name>  
+    <docvec>消毒柜 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>24</id>  
+    <name>蒸气炉类</name>  
+    <docvec>蒸气炉 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>25</id>  
+    <name>微波炉类</name>  
+    <docvec>微波炉 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>26</id>  
+    <name>烘干机类</name>  
+    <docvec>烘干机 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>27</id>  
+    <name>刑事审判</name>  
+    <docvec>刑事 50 抢劫 50 偷窃 50 绑架 50 赌博 50 勒索 50 偷盗 50 劫杀 50 诈骗 50 强奸 50 打架斗殴 50 黑社会 50 黑帮 50 强暴 50 轮奸 50 敲诈 50 吸毒 50 毒品 50 大麻 50 冰毒 50 走私 50 勒死 50 海洛因 50 白粉 50 摇头丸 50 非法拘禁 50 袭击 50 绑匪 50 轻伤 50 重伤 50 死刑 50 腐败 50 贪污 50 死刑 50 死缓 50 有期徒刑 50 无期徒刑 50 公诉 50 缓刑 50 行贿受贿 50 受贿案 50 诈骗 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>28</id>  
+    <name>行政审判</name>  
+    <docvec>行政复议 50 国家赔偿 50 状告政府 50 程序违法 50 行政审判 50 民告官 50 官民纠纷 50 滥用职权 50 玩忽职守 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>29</id>  
+    <name>民商事审判</name>  
+    <docvec>民事诉讼 50 邻里 50 违约 50 破产 50 婚姻 50 涉少 50 调解 50 抚养 50 房产 50 婚姻 50 合同纠纷 50 肖像权 50 名誉权 50 知识产权 50 版权 50 盗版 50 商标 50 调解 50 物业 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>30</id>  
+    <name>法院执行</name>  
+    <docvec>法院 100 中院 100 高院 100 赖帐 101 申请执行人 101 老赖 101 执行 101 执行局 101 执行难 101 破产申请 101 申请人 101 被执行人 101 逾期不履行 101 拒执 101 执结 101</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>31</id>  
+    <name>法院动态</name>  
+    <docvec>法院 100 中院 100 高院 100 创新 101 廉政 101 政绩 101 成绩 101 表彰 101 学习 101 大讨论 101 措施 101 工作动态 101 出台意见 101 出台政策 101 发文 101 司法 101 工作机制 101 贯彻 101 文件 101 条例 101 科学发展 101 改革 101 发挥职能 101 机遇 101 任免 101 任命 101 座谈会 101 工作保障 101</docvec> 
+  </com.analyze.model.bean.persist.Category>
+  <com.analyze.model.bean.persist.Category> 
+    <id>32</id>  
+    <name>能动司法</name>  
+    <docvec>能动司法 50</docvec> 
+  </com.analyze.model.bean.persist.Category>
+</root>

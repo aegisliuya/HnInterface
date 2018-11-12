@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <com.analyze.model.bean.persist.Sensitivity> 
+    <id>8</id>  
+    <industryId>1</industryId>  
+    <category1Id>103</category1Id> 
+    <category2Id>3</category2Id> 
+    <docvec>有无王法 40 非法 40 勾结 40 法官竟判 40 名字录错 40 录错被告名字 40 嘴上 40 绝望 50 违法 50 不公 50 亵渎 50 最火 50 史上 50 最牛 50 惨不忍睹 50 枉法裁判 50 受贿 50 访民 40 非法 40 违法 40  错判 40 乱判 50 冤假错案 40 翻案 40 不公 40 官官相护 40 伪证 40 上访 40 访民 40 滥用职权 50 强拆 50 血泪控诉 50 冤 50 伸冤 50 冤案 50 冤枉 50 维权 50 黑监狱 50 黑狱 40 维稳 50 实名举报 50 伸冤 40 黑 40 真黑 40 那么黑 40 好黑 40 黑暗 40 黑幕 40 猫腻 40 贪腐 40 奇葩 40 腐败 40 反腐 50 司法不作为 50 司法腐败 40 违法弄权 50 不予立案 50 不予受理 50 不受理 50 不开庭 40 造假 40 保护伞 50 枉法裁判 50 枉法裁决 50 有法不依 50 违背事实 40 事实不清 40 证据不足 40 恐吓 40 威胁恐吓 40 拒不受理 40 冤民 40 跪求青天 50 知法犯法 40 被精神病 40 劳教 40 被劳教 40 判劳教 40 非法拘禁 40 提起控告 40 控告 40 推卸责任 40 行贿受贿 40 事实不清 40 证据不足 40 发回重审 40 坑爹 40 疏忽 40 渎职 40 替罪羊 40 石沉大海 40 执行不力 40 牢狱之灾 40 压制 40 打压 40 陷害 40 逼供 40 刑讯逼供 40 以言代法 40 以权压法 40 执法违法 40 昭雪 50 法盲 50 公车私用 40 豪车 40 豪华办公楼 40 呼吁 50 申诉 40 国家赔偿 50 颠倒黑白 40 包庇 40 驳回 40 这样办案 40 如此办案 40 知错不纠 40 权大于法 50 黑案 40 惊现 40 法院门口 50 法院门前 40 追责难 40 判的太轻 50 枉法判裁 50 渎职徇私 50 询私舞弊 50 鸿如案  50 迷雾重重  50 拉横幅 50 举横幅 50 司法掮客 50 公车私用 20 情何以堪 50 敌对势力 50 境外势力 50 别有用心 50 久拖不决 50 警民冲突 50 强拆 50 惊爆 50 暴拆 50 动拆 50 虚假诉讼 50 动轻款 50 追究 50 伪证 50 网曝 50 网晒 50 涉恐 50 超标 50 死磕 50</docvec>
+    <sensitivityNumber>0</sensitivityNumber>
+    <name>法院业务敏感词</name> 
+  </com.analyze.model.bean.persist.Sensitivity>
+  <com.analyze.model.bean.persist.Sensitivity> 
+    <id>9</id>  
+    <industryId>3</industryId>  
+    <category1Id>85</category1Id> 
+    <category2Id>302</category2Id> 
+    <docvec>悲催 50 内幕 50 惊现 50 惊爆 50 黑暗 30 猥亵 30 惊现 50 出尔反尔 30 无耻 30 助纣为虐 50  躺着中枪 50  史上 50 事故 30  风波 30 非议 50 谴责 50 不道德 50 黑暗 50 下流 30 无耻 30 邪恶 50  伪劣 50 见死不救 50 质疑 50 曝光 50 黑幕 50 祸害 50 治标不治本 50 本末倒置 50 头痛医脚 50 欠缺 30 不到位 30 缺失 40 缺位 40 不达标 40 绝望 40 违法 40  违规 40 违法 40 曝光 40 被曝 40 歧视 40 打击 40 反思 40 乱象 40 怪圈 40 闹剧 40 世界工厂 40 血汗工厂 40 点名 40 指责 40  压制 40 拷问 40  性质恶劣 40  灭顶之灾 40 凶狠 40 ;残暴 40 滥用 40  草菅人命 40 天理难容 40 邪恶 40 罪魁祸首 40 祸根 40 异议 40 虚伪 40 欺上瞒下 40 瞒报 40 隐瞒 40 痛斥 40 悲观 40 偏执 40 狭隘 40 心酸 40 惨痛 40 讽刺 40  不容乐观 40 不幸 40 抱怨 40 冤屈 40  冤案 40 委曲求全 40 黑幕 40 群情激奋 40 跟帖如云 40 被殴 40 致死 40 刻不容缓 40 害群之马 40 严惩 40 漏洞 40 明目张胆 40 令人发指 40 不寒而立 40 把柄 40 潜规则 40 黑幕 40 很黄很暴 40 粗暴 40 同归于尽 40 全国关注 40 颜面尽失 40 抵制 40 贻患无穷 40 乱局 40 谑称 40 惹 40 没骨气 40 谴责 40 不和谐 40 水很深 40 哭诉无门 50 前途未卜 50 不到位 50 雷人 50 处理不当 50 恶搞 50 市长信箱 30 置之不理 40 事件 40 丑闻 40 公开信 40 无法无天 40 土豪 40 围堵</docvec>
+    <sensitivityNumber>1</sensitivityNumber>
+    <name>社会热点敏感词</name> 
+  </com.analyze.model.bean.persist.Sensitivity>
+  <com.analyze.model.bean.persist.Sensitivity> 
+    <id>10</id>  
+    <industryId>7</industryId>  
+    <category1Id>29</category1Id> 
+    <category2Id>3</category2Id> 
+    <docvec>逼供 50 刑讯 50 证据不足 50</docvec>
+    <sensitivityNumber>2</sensitivityNumber>
+    <name>检察院敏感词</name> 
+  </com.analyze.model.bean.persist.Sensitivity>
+  <com.analyze.model.bean.persist.Sensitivity> 
+    <id>11</id>  
+    <industryId>3</industryId>  
+    <category1Id>80</category1Id> 
+    <category2Id>283</category2Id> 
+    <docvec>政府失职  40  民告官  40  豪华商品房  40  豆腐渣工程  40  豪华会议  40  拉票  40  丑闻  40  双规  40  堕楼  40  卖官  40  内幕 40  公车私用  40  上访  40  黑幕  40  吃空饷  40   困难群众  40  骚乱  40  暴动  40  群殴  40  围攻  40  罢工  40  冲突  40  聚众闹事  40  戒备  40  戒严  40  游行  40  集会  40  绝食  40  静坐  40  上访  40  中南海  40  请愿  40  自杀  40  自虐  40  虐待  40  强暴  40  猥亵  40  强奸  40  鸡奸  40  通奸  40  偷情  40  做爱  40  偷窥  40  引诱  40  诱奸  40  手淫  40  奸淫  40  奸情  40  袭警  40  冲突  40  打群众  40  流血   40  暴动   40  暴徒   40  法轮功   40  法轮大法   40  李洪志   40  法轮G   40  转法轮  40   安全事故  40  踩踏事件  40  小煤窑  40  矿难  40  爆炸  40  车祸  40  交通事故  40  惨剧  40  烧毁  40  安全隐患  40  煤矿事故 40  坍塌  40  倒塌  40  塌陷  40  火灾打砸抢  40  骚乱  40  暴动  40  钉子户  40  强拆  40  逼拆  40  言论自由  40  舆论自由  40  多党  40  出版自由  40  一党专政  40  公选不公  40  人权问题  40  为民做主  40  豪华办公楼  40  强行搬迁  40  违法用地  40  拦截进京邮件  40  耗资千万元 40 </docvec>
+    <sensitivityNumber>1</sensitivityNumber>
+    <name>宣传部敏感分类</name> 
+  </com.analyze.model.bean.persist.Sensitivity>
+  <com.analyze.model.bean.persist.Sensitivity> 
+    <id>12</id>  
+    <industryId>3</industryId>  
+    <category1Id>77</category1Id> 
+    <category2Id>271</category2Id> 
+    <docvec>举报 50  实名举报 50  爆料 50 网曝 50  再曝 50  曝光 50 空中花园 50  空中别墅 50 抗拆 50 暴力 50 爆炸 50 空中园林 50 致江苏省委罗志军 50 致蒋宏坤 50 丑闻 50 弄虚作假  50 以权谋私  50 民告官 50 双规 50</docvec>
+   	<sensitivityNumber>3</sensitivityNumber>
+    <name>举报类</name> 
+  </com.analyze.model.bean.persist.Sensitivity>
+  <com.analyze.model.bean.persist.Sensitivity> 
+    <id>13</id>  
+    <industryId>3</industryId>  
+    <category1Id>88</category1Id> 
+    <category2Id></category2Id> 
+    <docvec>罢工 50 抗议 50 不明真相 50 人群聚集 50 围攻 50 呼吁 50 游行 50 公开信 50 群体性事件 50 精神病 50 持刀砍人 40 劫持 40 爆炸 40 警民冲突 40 抢尸 40 炸弹 40</docvec>
+    <sensitivityNumber>5</sensitivityNumber>
+    <name>群体性事件类</name> 
+  </com.analyze.model.bean.persist.Sensitivity>
+  <com.analyze.model.bean.persist.Sensitivity> 
+    <id>14</id>  
+    <industryId>3</industryId>  
+    <category1Id>88</category1Id> 
+    <category2Id></category2Id> 
+    <docvec>谣言 50  谣传 50  求真相 50  辟谣 50 网络大V 50 造谣 50 诽谤 50 500次 50 诈弹 50 围观 50</docvec>
+    <sensitivityNumber>2</sensitivityNumber>
+    <name>谣言类</name> 
+  </com.analyze.model.bean.persist.Sensitivity>
+  <com.analyze.model.bean.persist.Sensitivity> 
+    <id>15</id>  
+    <industryId>3</industryId>  
+    <category1Id>85</category1Id> 
+    <category2Id></category2Id> 
+    <docvec>中央巡视组 50 打老虎 50 苍蝇 50 中纪委 50 顶风作案 50 违法违纪 50 纪检监察 50 群众路线 50</docvec>
+    <sensitivityNumber>2</sensitivityNumber>
+    <name>反腐倡廉</name> 
+  </com.analyze.model.bean.persist.Sensitivity>
+</root>

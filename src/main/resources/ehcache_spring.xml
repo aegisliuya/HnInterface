@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ehcache name="spring-cache" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ehcache.xsd"
+         updateCheck="true" monitoring="on"
+         dynamicConfig="true">
+    <diskStore path="ehcache/spring"/>
+    <defaultCache
+            maxElementsInMemory="10000"
+            eternal="false"
+            timeToIdleSeconds="120"
+            timeToLiveSeconds="120"
+            diskPersistent="true"/>
+    <cache name="spring_query_cache"
+           maxElementsInMemory="5000"
+           eternal="false"
+           timeToIdleSeconds="145"
+           timeToLiveSeconds="120"
+           diskPersistent="true"
+           overflowToDisk="true"/>
+    <cache name="homepage_sensitive_case_cache"
+           statistics="true"
+           maxElementsInMemory="100"
+           eternal="false"
+           timeToIdleSeconds="120"
+           diskPersistent="true"
+           timeToLiveSeconds="120"
+           overflowToDisk="true"/>
+</ehcache>

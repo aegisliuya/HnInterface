@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{HH:mm:ss} %-5p %C %m%n" />
+		</layout>
+	</appender>
+	<appender name="File" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/error/error.log" />
+		<param name="Threshold" value="INFO" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd'.log'" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+	<appender name="FilterControl" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/test/FilterControl.log" />
+		<param name="Threshold" value="INFO" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd'.log'" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="AnalyzesControlSingleThread" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/AnalyzesControlSingleThread.log" />
+		<!--<param name="MaxFileSize" value="30000KB" />-->
+		<!--<param name="MaxBackupIndex" value="300" />-->
+		<!--<param name="Encoding" value="UTF-8" />-->
+		<!--<param name="ImmediateFlush" value="true" />-->
+		<param name="Threshold" value="INFO" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd'.log'" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="TaskControl" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/TaskControl.log" />
+		<param name="MaxFileSize" value="3000KB" />
+		<param name="MaxBackupIndex" value="300" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="RabbitMqClientControl" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/RabbitMqClientControl.log" />
+		<param name="MaxFileSize" value="3000KB" />
+		<param name="MaxBackupIndex" value="300" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="RabbitMqReceiveThread" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/RabbitMqReceiveThread.log" />
+		<param name="MaxFileSize" value="3000KB" />
+		<param name="MaxBackupIndex" value="300" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="ESStorageExecutor" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/ESStorageExecutor.log" />
+		<param name="MaxFileSize" value="30000KB" />
+		<param name="MaxBackupIndex" value="300" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="ESStorageOtherExecutor" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/ESStorageOtherExecutor.log" />
+		<param name="MaxFileSize" value="30000KB" />
+		<param name="MaxBackupIndex" value="300" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="MqReadDataLog" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/MqReadDataLog.log" />
+		<param name="MaxFileSize" value="30000KB" />
+		<param name="MaxBackupIndex" value="300" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="XcbFilterLog" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/XcbFilterLog.log" />
+		<param name="MaxFileSize" value="30000KB" />
+		<param name="MaxBackupIndex" value="300" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="DbSyncToEsThread" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/DbSyncToEsThread.log" />
+		<param name="MaxFileSize" value="30000KB" />
+		<param name="MaxBackupIndex" value="300" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="OldDbSyncToEsThread" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/OldDbSyncToEsThread.log" />
+		<param name="MaxFileSize" value="30000KB" />
+		<param name="MaxBackupIndex" value="300" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="EsSyncToEsThread" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/EsSyncToEsThread.log" />
+		<param name="MaxFileSize" value="30000KB" />
+		<param name="MaxBackupIndex" value="300" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="StartSimilarAnalyzer" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/similar/StartSimilarAnalyzer.log" />
+		<param name="MaxFileSize" value="30000KB" />
+		<param name="MaxBackupIndex" value="300" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+	<appender name="SimpleSimilarityAnalysisThread" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/similar/SimpleSimilarityAnalysisThread.log" />
+		<param name="MaxFileSize" value="30000KB" />
+		<param name="MaxBackupIndex" value="300" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+	<appender name="TrackProjectAnalyzeThread" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/trackproject/TrackProjectAnalyzeThread.log" />
+		<param name="MaxFileSize" value="30000KB" />
+		<param name="MaxBackupIndex" value="300" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+	<appender name="TrackProjectAnalyzer" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/trackproject/TrackProjectAnalyzer.log" />
+		<param name="MaxFileSize" value="30000KB" />
+		<param name="MaxBackupIndex" value="300" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+	<appender name="EventAnalyzeThread" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/eventAnalyze/EventAnalyzeThread.log" />
+		<param name="MaxFileSize" value="30000KB" />
+		<param name="MaxBackupIndex" value="300" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+	<appender name="EventAnalyzer" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/eventAnalyze/EventAnalyzer.log" />
+		<param name="MaxFileSize" value="30000KB" />
+		<param name="MaxBackupIndex" value="300" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="CheckESData" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="${LOG_PATH}/log/CheckESData.log" />
+		<param name="Threshold" value="INFO" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd'.log'" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{MM-dd HH:mm:ss} %-5p %c [%t] %m%n" />
+		</layout>
+	</appender>
+
+	<logger name="com.test.CheckESData">
+		<level value="info"/>
+		<appender-ref ref="CheckESData" />
+	</logger>
+
+	<logger name="com.analyze.logic.controller.EventAnalyzeThread">
+		<level value="info"/>
+		<appender-ref ref="EventAnalyzeThread" />
+	</logger>
+	<logger name="com.analyze.logic.component.analyze.impl.EventAnalyzer">
+		<level value="info"/>
+		<appender-ref ref="EventAnalyzer" />
+	</logger>
+	<logger name="com.analyze.controller.TrackProjectAnalyzeThread">
+		<level value="info"/>
+		<appender-ref ref="TrackProjectAnalyzeThread" />
+	</logger>
+	<logger name="com.controller.CommentService">
+		<level value="info"/>
+	</logger>
+	<logger name="com.controller.Bbsservice">
+		<level value="info"/>
+
+	</logger>
+	<logger name="com.analyze.logic.component.analyze.impl.TrackProjectAnalyzer">
+		<level value="info"/>
+		<appender-ref ref="TrackProjectAnalyzer" />
+	</logger>
+	<logger name="com.analyze.logic.component.analyze.similarityAnalysis.thread.SimpleSimilarityAnalysisThread">
+		<level value="info"/>
+		<appender-ref ref="SimpleSimilarityAnalysisThread" />
+	</logger>
+	<logger name="com.analyze.StartSimilarAnalyzer">
+		<level value="info"/>
+		<appender-ref ref="StartSimilarAnalyzer" />
+	</logger>
+	<logger name="com.analyze.logic.sync.DbSyncToEsThread">
+		<level value="info"/>
+		<appender-ref ref="DbSyncToEsThread" />
+	</logger>
+	<logger name="com.analyze.logic.sync.OldDbSyncToEsThread">
+		<level value="info"/>
+		<appender-ref ref="OldDbSyncToEsThread" />
+	</logger>
+	<logger name="com.analyze.logic.sync.EsSyncToEsThread">
+		<level value="info"/>
+		<appender-ref ref="EsSyncToEsThread" />
+	</logger>
+	<logger name="com.analyze.log.MqReadDataLog">
+		<level value="info"/>
+		<appender-ref ref="MqReadDataLog" />
+	</logger>
+	<logger name="com.analyze.logic.controller.AnalyzesControlSingleThread">
+		<level value="info"/>
+		<appender-ref ref="AnalyzesControlSingleThread" />
+	</logger>
+	<logger name="com.analyze.logic.controller.TaskControl">
+		<level value="info"/>
+		<appender-ref ref="TaskControl" />
+	</logger>
+	<logger name="com.analyze.logic.controller.RabbitMqClientControl">
+		<level value="info"/>
+		<appender-ref ref="RabbitMqClientControl" />
+	</logger>
+	<logger name="com.analyze.logic.controller.RabbitMqReceiveThread">
+		<level value="info"/>
+		<appender-ref ref="RabbitMqReceiveThread" />
+	</logger>
+	<logger name="com.analyze.logic.controller.FilterControl">
+		<level value="info"/>
+		<appender-ref ref="FilterControl" />
+	</logger>
+	<logger name="com.analyze.logic.component.storage.esStorer.ESStorageExecutor">
+		<level value="info"/>
+		<appender-ref ref="ESStorageExecutor" />
+	</logger>
+	<logger name="com.analyze.logic.component.storage.esStorer.ESStorageOtherExecutor">
+		<level value="info"/>
+		<appender-ref ref="ESStorageOtherExecutor" />
+	</logger>
+	<category name="org.hibernate" additivity="false">
+		<level value="error"/>
+		<appender-ref ref="CONSOLE"/>
+	</category>
+	<category name="org.hibernate.cache">
+		<level value="error"/>
+		<appender-ref ref="CONSOLE"/>
+	</category>
+	<category name="org.apache" additivity="false">
+		<level value="info"/>
+		<appender-ref ref="CONSOLE"/>
+	</category>
+	<category name="org.springframework" additivity="false">
+		<level value="debug"/>
+		<appender-ref ref="CONSOLE"/>
+	</category>
+	<category name="org.apache.commons.httpclient">
+		<level value="error"/>
+	</category>
+	<root>
+		<priority value="INFO" />
+		<appender-ref ref="CONSOLE" />
+	</root>
+</log4j:configuration>

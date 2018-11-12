@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+  <com.analyze.model.bean.persist.Industry> 
+    <id>1</id>  
+    <name>法院</name>  
+    <docvec>法院 50 法官 50 法庭 50 法医 50 高院 50 中院 50 王胜俊 50 最高法 50</docvec> 
+  </com.analyze.model.bean.persist.Industry>
+  <com.analyze.model.bean.persist.Industry> 
+    <id>2</id>  
+    <name>金融证券</name>  
+    <docvec>储蓄 50 贷款 50 信用卡 50 卡业务 50 理财 50 基金 50 代理销售 50 信用担保 50 代收代付 50 支付结算 50 存款 50 融资 50 个人业务 50 公司业务 50 小企业业务 50 同业业务 50 政策性银行 50 信贷资产转让 50 资产托管 50 财务公司 50 信托投资公司 50 证券公司 50 外资银行 50 代理保险业务 50 融资业务 50 现券买卖 50 债券分销 50 债券结算 50 信贷资产 50 代理资金 50 账户查询 50 转账 50 电话汇款 50 短信定制 50 预约取现 50 外汇买卖 50 网银 50 营业网点服务 50 客服电话服务 50 客服服务中心 50 自助服务区 50 营业网点 50 特惠商户 50 金融信息 50 自助柜员机 50 转账 50 咨询 50 传真 50 服务 50 国企改制 50 国有资产 50 经济 50 经济发展 50 GDP 50 经济开发区 50 经济技术开发区 50 金融 50 银行贷款 50 国资委 50 贷款 50 银行 50</docvec> 
+  </com.analyze.model.bean.persist.Industry>
+  <com.analyze.model.bean.persist.Industry> 
+    <id>3</id>  
+    <name>公共</name>  
+    <docvec>ndPVC 50 招聘 50 求职 50 发票代理 50 征婚 50 不锈钢 50</docvec> 
+  </com.analyze.model.bean.persist.Industry>
+  <com.analyze.model.bean.persist.Industry> 
+    <id>4</id>  
+    <name>涉台</name>  
+    <docvec>法院 100 中院 100 台灣 101 台北 101 高雄 101 基隆 101 台中 101 台南 101 新竹 101 嘉義 101 北縣 101 板橋 101 宜蘭 101 桃園 101 新竹 101 竹北 101</docvec> 
+  </com.analyze.model.bean.persist.Industry>
+  <com.analyze.model.bean.persist.Industry> 
+    <id>6</id>  
+    <name>公安</name>  
+    <docvec>公安 50</docvec> 
+  </com.analyze.model.bean.persist.Industry>
+  <com.analyze.model.bean.persist.Industry> 
+    <id>7</id>  
+    <name>检察院</name>  
+    <docvec>检察 50 检察院 50 检察官 50 抗诉 50 渎职 50 公诉 50 批捕 50 反贪污 50 上访 50 曹建明 50 徐安 50 刑讯逼供 50</docvec> 
+  </com.analyze.model.bean.persist.Industry>
+  <com.analyze.model.bean.persist.Industry> 
+    <id>8</id>  
+    <name>家用电器</name>  
+    <docvec>厨具 50 炊具 50 灶具 50 烤箱 50 灶台 50 油烟机 50 灶 50 燃具 50 煤气灶 50 灶具 50 燃气灶 50 西门子灶 50 炊具 50 雪柜 50 冷柜 50 冰柜 50 冰箱 50 冷藏 50 冰箱 50 洗衣机 50 干洗机 50 洗碗机 50 吸尘器 50 咖啡机 50 热水器 50 酒柜 50 油烟机 50 烤箱 50 消毒柜 50 蒸气炉 50 微波炉 50 烘干机 50 罗永浩 50 家电 50 电器 50</docvec> 
+  </com.analyze.model.bean.persist.Industry>
+  <com.analyze.model.bean.persist.Industry> 
+    <id>9</id>  
+    <name>房地产</name>  
+    <docvec>苏宁 50 苏宁环球 50 苏浦建设 50 华浦高科 50 天华百润 50</docvec> 
+  </com.analyze.model.bean.persist.Industry>
+  <com.analyze.model.bean.persist.Industry> 
+    <id>10</id>  
+    <name>医院</name>  
+    <docvec>医患 50 挂号 50 药费 50 医生 50 鼓楼医院新院 50 仙林分院 50 医院工程 50 门诊 50 导医 50 就医 50 医院 50 疫情 50 Sars 50 医药代表 50 医疗保险 50 医疗事故 50 感染 50 病房 50 医生态度 50 医生责任 50 医 50 药 50</docvec> 
+  </com.analyze.model.bean.persist.Industry>
+  <com.analyze.model.bean.persist.Industry> 
+    <id>11</id>  
+    <name>汽车</name>  
+    <docvec>大众 50 胡茂元 50 张海亮 50 倪凯铭 50 何思渊 50 穆勇 50 吴博锐 50 何向东 50 罗凯福 50 海兹曼 50 麦恺德 50 贾鸣镝 50 普桑 50 santana 50 桑塔纳 50 帕萨特 50 passat 50 新领驭 50 CROSSPOLO 50 朗逸 50 途观 50 途安 50 天越TANTUS 50 斯柯达 50 昊锐 50 明锐 50 晶锐 50 上海大众 50 上汽 50 一汽 50 广汽 50 北京现代 50 东风日产 50 上海通用 50 东风雪铁龙 50 长安福特 50 丰田 50 尼桑 50 NISSAN 50 日产 50 本田 50 别克 50 马自达 50 北京现代 50 雪铁龙 50 华晨中华 50 福特 50 长安铃木 50 雪佛兰 50 MG名爵 50 福特 50 蒙迪欧致胜 50 雪佛兰 50 东风标致 50 丰田 50 尼桑 50 NISSAN 50 日产 50 本田 50 别克 50 马自达 50 北京现代 50 雪铁龙 50 华晨中华 50 福特 50 长安铃木 50 雪佛兰 50 MG名爵 50 福特 50 蒙迪欧致胜 50 雪佛兰 50 东风标致 50 dsg 50 质检总局 50 大众 50 质检总局 50</docvec> 
+  </com.analyze.model.bean.persist.Industry>
+  <com.analyze.model.bean.persist.Industry> 
+    <id>12</id>  
+    <name>工业</name>  
+    <docvec>博世 50</docvec> 
+  </com.analyze.model.bean.persist.Industry>
+  <com.analyze.model.bean.persist.Industry> 
+    <id>13</id>  
+    <name>税务局</name>  
+    <docvec>税 50 国税 50 税务 50 GS局 50 国S局 50 增值税 50 使用税 50 房产税 50 所得税 50 资源税 50 再投资退税 50 越权减免税 50 预提税 50 营业税 50 印花税 50 依法治税 50 烟叶税 50 烟草税 50 消费税 50 利得税 50 收益税 50 税官 50 偷税 50 逃税 50 漏税 50 避税 50 税收 50 办税 50</docvec> 
+  </com.analyze.model.bean.persist.Industry>
+</root>

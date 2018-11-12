@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root> 
+  <com.analyze.model.bean.persist.Category2> 
+    <id>0</id>  
+    <name>其他</name>  
+    <docvec/> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>26</id>  
+    <name>干警作风</name>  
+    <docvec>法院 100 中院 100 高院 100 法官 100 勾结 101 钱权交易 101 包养情妇 101 贪婪 101 唯利是图 101 官官相护 101 包庇 101 挪用公款 101 暗中勾结 101 保护伞 101 巨额贿赂 101 贪赃枉法 101 徇私舞弊 50 官场弊案 50 狼狈为奸 50 贪赃枉法 50 骗取诉讼费 50 以权谋私 50 窝案 50 公车私用 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>27</id>  
+    <name>执行不力</name>  
+    <docvec>不作为 50 执行不公 50 袒护被告 50 消极执行 50 拖延执行 50 不执行 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>44</id>  
+    <name>枉法裁判</name>  
+    <docvec>法院 100 中院 100 高院 100 法官 100 腐败 101 无法无天 101 黑暗 101 有法不依 101 违法不究 101 公然违法 101 丧失司法公信力 101 公道何在 101 牛头不对马嘴 101 不法之徒 101 篡改 101 司法不公 101 勾结 101 出尔反尔 101 滥用司法权 101 荒唐 101 人面兽心 101 胡作非为 101 横行霸道 101 肆无忌惮 101 丧心病狂 101 厚颜无耻 101 草菅人命 101 践踏司法 101 无视法律 101 玩忽职守 101 拒不纠正 101 仗势欺人 101 惊天奇事 101 执法枉法 101 裁决不服 101 严重违法 101 以权压法 101 公正何在 101 造假证词 50 徇私枉法 50 枉法裁判 50 枉法裁决 50 徇私枉判 50 糊涂案 50 怪案 50 枉法 50 枉法驳回 50 阴阳两判 50 判决不公 50 糊涂办案 50 违法办案 50 徇私舞弊 50 天大错案 50 黑案 50 冤假错案 50 两种裁定 50 奇案 50 伪造证据 50 偷换证据 50 错案 50 审判不公 50 判刑过重 50 冤案 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>45</id>  
+    <name>拒不立案</name>  
+    <docvec>不作为 50 不立案 50 拒不立案 50 搁置 50 无故拖延 50 不受理 50 撤回材料 50 立案难 50 难立案 50 不收诉状 50 没号不接待 50 勉强立案 50 不予受理 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>46</id>  
+    <name>拖延判决</name>  
+    <docvec>拖延判决 50 不审不判 50 拖延审判 50 拖延判决 50 久不开庭 50 久不宣判 50 判决拖延 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>93</id>  
+    <name>股票类</name>  
+    <docvec>尾盘 50 大盘 50 权重股 50 股票 50 炒股 50 行情 50 股净资产 50 短线 50 股市 50 皇冠 50 文凭 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>95</id>  
+    <name>招生考试</name>  
+    <docvec>招生 50 招生简章 50 培训 50 辅导班 50 窃听器 50 项目 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>96</id>  
+    <name>热点敏感类</name>  
+    <docvec>冤情 50 暴力 50 狗屁 50 狗日的 50 枉法裁判 50 聚集 50 联名 50 猥亵 50 徇私枉法 50 公开信 50 无耻 50 助纣为虐 50 史上 50 风波 50 不容乐观 50 非议 50 谴责 50 不道德 50 丑陋 50 下流 50 无耻 50 邪恶 50 伪劣 50 见死不救 50 质疑 50 曝光 50 黑幕 50 举报 50 双轨 50 祸害 50 治标不治本 50 本末倒置 50 头痛医脚 50 欠缺 50 不到位 50 缺失 50 缺位 50 违法 50 违轨 50 曝光 50 被曝 50 歧视 50 反思 50 乱象 50 反思 50 怪圈 50 闹剧 50 点名 50 指责 50 压制 50 拷问 50 谁之过 50 性质恶劣 50 灭顶之灾 50 凶狠 50 残暴 50 滥用 50 草菅人命 50 天理难容 50 邪恶 50 罪魁祸首 50 祸起 50 祸根 50 异议 50 虚伪 50 欺上瞒下 50 瞒报 50 隐瞒 50 阴影 50 之痛 50 痛斥 50 悲观 50 偏执 50 狭隘 50 心酸 50 心痛 50 惨痛 50 讽刺 50 不容乐观 50 问号 50 浮夸 50 麻烦 50 抱怨 50 冤屈 50 冤案 50 委曲求全 50 诱惑 50 群情激奋 50 跟帖如云 50 被殴 50 致死 50 害群之马 50 严惩 50 明目张胆 50 令人发指 50 不寒而立 50 把柄 50 潜规则 50 黑幕 50 包庇 50 袒护 50 猥亵 50 徇私枉法 50 公开信 50 无耻 50 助纣为虐 50 史上 50 风波 50 不容乐观 50 非议 50 谴责 50 不道德 50 丑陋 50 下流 50 无耻 50 邪恶 50 见死不救 50 质疑 50 曝光 50 黑幕 50 举报 50 祸害 50 治标不治本 50 本末倒置 50 头痛医脚 50 欠缺 50 不到位 50 缺失 50 缺位 50 违法 50 违轨 50 曝光 50 被曝 50 歧视 50 反思 50 乱象 50 反思 50 怪圈 50 闹剧 50 点名 50 指责 50 压制 50 拷问 50 谁之过 50 性质恶劣 50 灭顶之灾 50 凶狠 50 残暴 50 滥用 50 草菅人命 50 天理难容 50 邪恶 50 罪魁祸首 50 祸起 50 祸根 50 异议 50 虚伪 50 欺上瞒下 50 瞒报 50 隐瞒 50 阴影 50 之痛 50 痛斥 50 悲观 50 偏执 50 狭隘 50 心酸 50 心痛 50 惨痛 50 讽刺 50 不容乐观 50 问号 50 浮夸 50 抱怨 50 冤屈 50 冤案 50 委曲求全 50 诱惑 50 群情激奋 50 跟帖如云 50 被殴 50 致死 50 害群之马 50 严惩 50 明目张胆 50 令人发指 50 不寒而立 50 把柄 50 潜规则 50 黑幕 50 包庇 50 袒护 50 公理何在 50 司法腐败 50 权大于法 50 权钱交易 50 违法办案 50 违法裁定 50 违法判决 50 痛诉 50 徇私枉法 50 冤案 50 颠倒黑白 50 错案 50 糊涂 50 轻判 50 猫腻 50 忽悠 50 法制无存 50 伪造案件 50 难以置信 50 伪造判决书 50 有案不立 50 有腐不查 50 冤假错案 50 逍遥法外 50 不依法：公道 50 形同虚设 50 一问 50 再问 50 三问 50 违背法律公正 50 违背法律 50 违法拍卖 50 暗箱操作 50 权力操纵 50 司法干预 50 恶意捏造 50 篡改 50 亵玩法律 50 以权谋私 50 弱智判决 50 申冤 50 暴力执法 50 离奇判决 50 猖狂 50 爆料 50 青天 50 说法 50 拒不受理 50 荒谬绝伦 50 游行 50 示威 50 服务差 50 态度差 50 服务不行 50 服务维修差 50 服务不到位 50 让人失望 50 不满意 50 维修电话假的 50 客服 50 水平差 50 态度差 50 很差 50 质量不给力 50 售后服务没有 50 售后服务极差 50 售后服务冒牌 50 服务太差 50 投诉 50 投诉到底 50 电话投诉 50 欺诈 50 毁约 50 投诉无门 50 投诉电话 50 打假投诉 50 不如以前 50 无法解决 50 不错 50 可靠 50 存大问题 50 太差 50 不省心 50 破质量 50 很差 50 一塌糊涂 50 破质量 50 质量差 50 质量监控不到位 50 质量一般 50 不上不下 50 质量不行 50 罗永浩 50 坏了 50 维修太贵 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>110</id>  
+    <name>无关数据类</name>  
+    <docvec>资讯 50 简讯 50 急聘 50 招聘 50 求职 50 发票代理 50 征婚 50 发票 50 注意事项 50 公告 50 贷款 50 招录 50 晒一晒 50 晒晒 50 长沙 50 徐州 50 文凭 50 李庄 50 地址 50 电话 50 租房 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>115</id>  
+    <name>维权信访</name>  
+    <docvec>绝食 50 拉横幅 50 条幅 50 横幅 50 拉横幅 50 门前抗议 50 牌子 50 空喊口号 50 上吊 50 喊冤 50 聚集 50 示威活动 50 集会 50 静坐 50 烧纸钱 50 举牌 50 标语 50 白布横幅 50 裸身抗议 50 大字报 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>118</id>  
+    <name>无关类</name>  
+    <docvec>代开 50 发票 50 考试 50 小姐 50 酒店 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>122</id>  
+    <name>银行营业网点服务</name>  
+    <docvec>态度差 50 服务真差 50 等候时间 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>123</id>  
+    <name>银行客服电话服务</name>  
+    <docvec>扛不住 50 网点不多 50 饶命 50 电话打不通 50 客服热线超级难打 50 太坑爹 50 投诉无渠道 50 网点少 50 差 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>124</id>  
+    <name>银行信用卡类</name>  
+    <docvec>套现 50 诈骗 50 透支 50 还款 50 附属卡 50 积分被吞 50 恶意透支 50 潜规则 50 分期付款 50 用卡贷款 50 被盗刷 50 借贷 50 发卡 50 坏账 50 信用卡 50 最黑 50 存款 50 利息 50 个人信用 50 贷记卡 50 商场分期 50 邮购分析 50 账单分期 50 假卡 50 废卡 50 附属卡 50 双币信用卡 50 主卡 50 信用额度 50 盗刷 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>125</id>  
+    <name>贷款类</name>  
+    <docvec>效率好低 50 业务水平低 50 忽悠办卡 50 垃圾 50 不能信 50 太烂 50 网银差 50 信用卡的网站太烂 50 个人贷款 50 房产贷款 50 抵押贷款 50 企业贷款 50 小额贷款 50 汽车贷款 50 房屋贷款 50 个人信用贷款 50 中小企业贷款 50 利息 50 短期贷款 50 中长期贷款 50 中期贷款 50 透支 50 委托贷款 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>126</id>  
+    <name>理财类</name>  
+    <docvec>网上基金 50 龙盈理财 50 稳盈 50 增盈 50 创盈 50 慧盈 50 金盈 50 华夏金 50 天天 50 外汇 50 活期与通知存款 50 贵宾专属增值服务 50 第三方存管 50 银行理财 50 保险理财 50 基金理财 50 信托理财 50 期货理财 50 个人理财 50 家庭理财 50 银行理财 50 投资理财 50 黄金理财 50 白领理财 50 育儿理财 50 理财 50 黄金理财 50 外汇理财 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>127</id>  
+    <name>网银类</name>  
+    <docvec>个人银行 50 证书版 50 签约版 50 网上企业银行 50 企业网银 50 集团结算中心 50 银企直联 50 来账信息 50 银企对账 50 批量转账 50 网上汇款 50 预植证书 50 个人理财 50 批量汇款 50 账户总览 50 网上基金 50 手机银行 50 网上支付 50 银关通 50 网银被盗 50 网上银行 50 账户查询 50 转账汇款 50 缴费支付 50 个人贷款 50 网银在线 50 网银 50 网银钱包 50 网上钱包 50 网银盾 50 网银转账 50 网银注册 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>133</id>  
+    <name>冰箱门问题</name>  
+    <docvec>冰箱门 100 弹力 101 自动弹开 101 弹出来 101 粘不牢 101 关不上 101 关不严 101 不严 101 关不紧 101 关不拢 101 用力推一推 101 没关上 101 闭门不紧 101 致命缺陷 101 胶带 101 检查门 101 开了 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>134</id>  
+    <name>冰箱积水结冰问题</name>  
+    <docvec>冰箱 100 积水 101 结冰 101 结冻 101 冰山 101 除水 101 除霜 101 霜 101 冰 101 有水 101 出水 101 水 101 潮湿 101 漏水 101 神物 101 粘住 101 拉不开 101 冰块 101 结冰严重 101 除冰 101 冰箱 100 保鲜层 101 冷藏室 101 冷冻室 101 冷冻层 101 积水 102 结冰 102 结冻 102 冰山 102 除水 102 除霜 102 霜 102 冰 102 有水 102 出水 102 水 102 潮湿 102 漏水 102 神物 102 粘住 102 拉不开 102 冰块 102 结冰严重 102 除冰 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>135</id>  
+    <name>冰箱隔板问题：</name>  
+    <docvec>冰箱隔板 100 碎了 101 裂开 101 裂了 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>136</id>  
+    <name>冰箱发烫问题：</name>  
+    <docvec>冰箱 100 发烫 101 烫 101 着火 101 热 101 冰箱 100 门 101 发烫 102 烫 102 着火 102 热 102 冰箱 100 壁 101 发烫 102 烫 102 着火 102 热 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>137</id>  
+    <name>冰箱生锈问题：</name>  
+    <docvec>冰箱 100 生锈 101 锈斑 101 冰箱 100 门 101 生锈 102 锈斑 102 冰箱 100 外壳 101 外表 101 生锈 102 锈斑 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>138</id>  
+    <name>冰箱噪声问题：</name>  
+    <docvec>冰箱 100 响 101 奇怪声音 101 声音大 101 响的来 101 噪声大 101 耳鸣 101 冰箱 100 噪声 101 噪音 101 大 102 冰箱 100 丝丝 101 嗡嗡 101 滴滴滴 101 响 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>139</id>  
+    <name>冰箱爆裂问题：</name>  
+    <docvec>冰箱 100 裂痕 101 爆裂 101 碎片 101 震惊 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>140</id>  
+    <name>冰箱其他问题：</name>  
+    <docvec>冰箱 100 制冷 101 不制冷 101 脏 101 裂缝 101 老鼠窝 101 报警 101 停机 101 风扇不转 101 频繁启动 101 密封条脱落 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>141</id>  
+    <name>洗衣机滚筒问题：</name>  
+    <docvec>洗衣机 100 有声音 101 异样声音 101 不动 101 洗衣机 100 滚筒 101 内筒 101 有声音 102 异样声音 102 不动 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>142</id>  
+    <name>洗衣机门的问题：</name>  
+    <docvec>洗衣机 100 打不开 101 锁住 101 开不了 101 怎么开 101 洗衣机 100 门 101 打不开 102 锁住 102 开不了 102 怎么开 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>143</id>  
+    <name>洗衣机甩干时震动问题</name>  
+    <docvec>洗衣机 100 乱跑 101 倒掉 101 响声越来越大 101 避震功能出问题 101 地震 101 自动前进 101 洗衣机 100 甩干 101 震动 101 乱跑 102 太厉害 102 倒掉 102 响声越来越大 102 机关枪 102 避震功能出问题 102 战斗机 102 地震 102 自动前进 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>144</id>  
+    <name>洗衣机密封圈发霉问题：</name>  
+    <docvec>洗衣机 100 发霉 101 麻烦 101 洗衣机 100 密封圈 101 发霉 102 麻烦 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>146</id>  
+    <name>洗衣机其他问题：</name>  
+    <docvec>洗衣机 100 故障 101 死循环 101 卡住 101 爆裂 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>150</id>  
+    <name>普通问题：</name>  
+    <docvec>西门子 100 博世 100 坏了 101 坏 101 次 101 迷信 101 稀烂 101 巨差 101 破 101 郁闷 101 质量 101 也就这样 101 不好 101 神经兮兮 101 强烈反对 101 绝望 101 毛病 101 折磨 101 换掉 101 不行 101 淘汰产品 101 没用了 101 问题 101 缺陷 101 有问题 101 出问题 101 又坏了 101 破烂 101 坑爹 101 坑姐 101 气人 101 悲催 101 倒霉 101 愤怒 101 不给力 101 太差 101 极差 101 很差 101 越来越差 101 真心差 101 垃圾 101 不能信任 101 TM 101 坑人 101 一定不能买 101 绝不买 101 都不买 101 坚决不用 101 也不用 101 坚决不买 101 千万别买 101 恨 101 苦逼 101 不合格 101 不靠谱 101 也不咋滴 101 出毛病 101 无良 101 不再相信 101 上黑名单 101 垃圾 101 给个解释 101 吹的 101 狗屁 101 心惊 101 麻烦 101 伤不起 101 天杀的 101 质量下滑 101 值得怀疑 101 价格虚高 101 质量存疑 101 价格贵 101 死贵 101 投诉 101 号称 101 破玩意 101 真他妈 101 太他妈的 101 极品 101 来气 101 不要脸 101 廉价 101 没用多久 101 砸 101 缺心眼 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>151</id>  
+    <name>爆炸燃烧等危机问题：</name>  
+    <docvec>西门子 100 博世 100 爆炸 101 燃烧 101 着火 101 受伤 101 爆裂 101 伤人 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>152</id>  
+    <name>油烟机问题</name>  
+    <docvec>油烟机 100 旧的 101 油污 101 坏了 101 滴下油 101 油 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>153</id>  
+    <name>洗碗机问题：</name>  
+    <docvec>洗碗机 100 猪狗不如 101 停了 101 手洗 101 不干净 101 滑腻感 101 时间混乱 101 显示屏乱跳 101 显示屏不显示 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>154</id>  
+    <name>冰箱管道外漏负面类</name>  
+    <docvec>冰箱 100 管道外漏 101 管道 101 管子 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>155</id>  
+    <name>洗衣机功能程序负面类</name>  
+    <docvec>洗衣机 100 故障 101 死循环 101 时间延长 101 延长 101 水烫手 101 洗衣机 100 程序 101 功能 101 故障 102 死循环 102 时间延长 102 延长 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>156</id>  
+    <name>煤气灶负面类</name>  
+    <docvec>煤气灶 100 灶台 100 坏掉 101 打不着火 101 打得着火 101 打火开关坏掉 101 没法做饭 101 难打火 101 爆裂 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>157</id>  
+    <name>热水器负面类</name>  
+    <docvec>热水器 100 电热水器 100 不靠谱 101 罢工 101 不着火 101 如何设定 101 不出热水 101 不合格 101 坏了 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>158</id>  
+    <name>其它检察类</name>  
+    <docvec>检察 40 检察院 40 检察官 40 抗诉 40 渎职 40 公诉 40 批捕 40 反贪污 40 上访 40 曹建明 40 徐安 40</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>159</id>  
+    <name>刑事侦查</name>  
+    <docvec>刑讯逼供 50 立案监督 50 刑事赔偿 50 批捕 50 批准逮捕 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>160</id>  
+    <name>公诉类</name>  
+    <docvec>公诉 50 追诉 50 提起诉讼 50 抗诉 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>161</id>  
+    <name>反贪污</name>  
+    <docvec>检察 100 反贪局 100 腐败 101 贿赂 101 贪污 101 落马 101 贪官 101 行贿 101 双轨 101 东窗事发 101 蛀虫 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>170</id>  
+    <name>医患关系类</name>  
+    <docvec>医患 50 医患纠纷 50 医患关系紧张 50 医患关系恶化 50 医患关系破裂 50 医患矛盾 50 医患对立 50 医患沟通 50 医患供求倒挂 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>171</id>  
+    <name>看病难、贵类</name>  
+    <docvec>挂号排队 50 挂号 50 黄牛挂号 50 专家号 50 高额药费 50 药费 50 医疗收费 50 开高价药 50 取药系统 50 过度医疗 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>172</id>  
+    <name>医德类</name>  
+    <docvec>红包 50 医者无德 50 医生走穴 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>173</id>  
+    <name>医院工程类</name>  
+    <docvec>新院 50 分院 50 招标 50 扩建 50 搬迁 50 设备 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>174</id>  
+    <name>医院部门类</name>  
+    <docvec>门诊 50 导医 50 就医咨询 50 领导用车 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>175</id>  
+    <name>病情分类</name>  
+    <docvec>流感疫情 50 Sars 50 疫情 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>176</id>  
+    <name>医疗方式</name>  
+    <docvec>医药代表 50 最贵的药 50 勾结医生 50 勾结药店 50 医疗保险 50 社保报销 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>177</id>  
+    <name>医疗问题</name>  
+    <docvec>医疗事故 50 医院失误 50 药房拿错药 50 病历丢失 50 丢病历 50 耽误治疗 50 误诊 50 乱诊断 50 医疗过错 50 院内感染 50 院内感染 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>178</id>  
+    <name>医院其他类</name>  
+    <docvec>高干病房 50 医生态度 50 无医德 50 医学败类 50 医生责任 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>179</id>  
+    <name>壁挂炉</name>  
+    <docvec>壁挂炉 100 轰隆隆响 101 没修好 101 让人抓狂 101 换板子 101 维修 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>180</id>  
+    <name>采暖</name>  
+    <docvec>采暖 100 标配 101 没有配置 101 效果不好 101 效果不良 101 效果差 101 管漏水 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>181</id>  
+    <name>锅炉</name>  
+    <docvec>锅炉 100 坏了 101 不咋地 101 噪音大 101 库存 101 水泵 101 膨胀罐 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>182</id>  
+    <name>热水器</name>  
+    <docvec>热水器 100 不出热水 101 温度调节 101 炸响 101 没打着火 101 罢工 101 水少不热 101 不靠谱 101 罢工 101 不着火 101 如何设定 101 不合格 101 坏了 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>183</id>  
+    <name>换热水箱</name>  
+    <docvec>换热水箱 100 粗糙 101 水漏 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>184</id>  
+    <name>滤清器</name>  
+    <docvec>滤清器 100 开封问题 101 保养收费 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>185</id>  
+    <name>雨刮</name>  
+    <docvec>雨刮 100 不起作用 101 不持久 101 摆动现象 101 刮不干净 101 很差 101 噪声大 101 雨刮条 101 跳动 101 越刮越花 101 锈迹 101 故障 101 烂 101 折腾 101 挂了 101 贵 101 垃圾 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>186</id>  
+    <name>包装技术</name>  
+    <docvec>包装 100 不满 101 被人拆过 101 丑陋 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>187</id>  
+    <name>客服电话</name>  
+    <docvec>客服电话 100 没人接 101 打不通 101 挂电话 101 态度恶劣 101 态度差 101 冷淡 101 电话催 101 反馈半天 101 维修工慢 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>188</id>  
+    <name>服务质量</name>  
+    <docvec>维修 100 维修师傅 100 师傅 100 乱收费 101 维修效率 101 没修好 101 装修施工不当 101 要求收费 101 用户承担 101 天价 101 水涨船高 101 狮子大开口 101 到处污渍 101 碰伤痕迹 101 还没修好 101 各种收费 101 维修费 101 上门费 101 配件费 101 配件贵 101 谁能修 101 苦逼 101 你妹的 101 修不好 101 开口 101 不配套 101 强盗 101 傲慢恶劣 101 没有赔偿 101 维修次数 101 安装 100 安装不了 101 程序繁琐 101 技术水平差 101 下次来修 101 技术不行 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>189</id>  
+    <name>服务态度</name>  
+    <docvec>上门维修 100 售后 100 维修 100 维修师傅 100 推三阻四 101 无人处理 101 一拖再拖 101 没有来 101 嘀咕 101 嫌路远 101 不见人影 101 坑了 101 TM窝火 101 千里迢迢 101 令人崩溃 101 谈判 101 巨差 101 最差 101 差劲 101 真心差 101 极差 101 那么差 101 差劲 101 摆设 101 忽悠 101 推卸责任 101 自认倒霉 101 坑爹 101 垃圾 101 恶心 101 太过分 101 等多久 101 很不客气 101 不来了 101 他妈的 101 反应慢 101 郁闷 101 无比失望 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>191</id>  
+    <name>国税领导</name>  
+    <docvec>王洪龙 100 国税局 101 国家税务局 101 GS局 101 国S局 101 税务所 101 税务局 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>192</id>  
+    <name>税种聚焦</name>  
+    <docvec>增值税 50 使用税 50 房产税 50 所得税 50 资源税 50 再投资退税 50 越权减免税 50 预提税 50 营业税 50 印花税 50 依法治税 50 烟叶税 50 烟草税 50 消费税 50 利得税 50 收益税 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>193</id>  
+    <name>偷税漏税</name>  
+    <docvec>偷税 50 逃税 50 漏税 50 避税 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>194</id>  
+    <name>涉税舆情</name>  
+    <docvec>税收 100 税务局 100 税官 100 国税局 100 GS局 100 国S局 100 黑心 101 黑 101 腐败 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>195</id>  
+    <name>税务办理</name>  
+    <docvec>税务登记证 50 税务部门 50 税收综合业务 50 税收专项检查 50 税务大厅 50 办税大厅 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>196</id>  
+    <name>医院领导类</name>  
+    <docvec>邱勇 50 王东进 50 丁义涛 50 胡娅莉 50 马戎 50 于成功 50 仇毓东 50 王志群 50 刘长建 50 刘宝瑞 50 孙贤敏 50 孙凌云 50 孙海翔 50 朱大龙 50 朱斌 50 吴亚夫 50 张苗 50 邹晓平 50 陈隆典 50 欧阳建 50 郑培德 50 姜允飞 50 施广飞 50 徐标 50 徐肇敏 50 翁文杰 50 郭宏骞 50 高下 50 梁维邦 50 葛春晓 50 蒋青 50 蒋健 50 谢敏 50 管文贤 50 谭谦 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>197</id>  
+    <name>产品服务类</name>  
+    <docvec>客户服务 50 客服 50 客户反馈 50 售后 50 售前 50 维修 50 服务员 50 服务态度 50 客服电话 50 维修师傅 50 安装 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>198</id>  
+    <name>产品运送类</name>  
+    <docvec>送货 50 运送 50 物流 50 发货 50 送个货 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>199</id>  
+    <name>反应速度类</name>  
+    <docvec>回应 50 反应 50 上门 50 售后 50 上门维修 50 维修 50 维修师傅 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>200</id>  
+    <name>服务态度类</name>  
+    <docvec>营销员 100 导购 100 服务员 100 态度恶劣 101 忽悠 101 TMD 101 很屌 101 很差 101 太差 101 不好 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>  
+  <com.analyze.model.bean.persist.Category2> 
+    <id>0</id>  
+    <name>其他</name>  
+    <docvec/> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>26</id>  
+    <name>干警作风</name>  
+    <docvec>法院 100 中院 100 高院 100 法官 100 勾结 101 钱权交易 101 包养情妇 101 贪婪 101 唯利是图 101 官官相护 101 包庇 101 挪用公款 101 暗中勾结 101 保护伞 101 巨额贿赂 101 贪赃枉法 101 徇私舞弊 50 官场弊案 50 狼狈为奸 50 贪赃枉法 50 骗取诉讼费 50 以权谋私 50 窝案 50 公车私用 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>27</id>  
+    <name>执行不力</name>  
+    <docvec>不作为 50 执行不公 50 袒护被告 50 消极执行 50 拖延执行 50 不执行 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>44</id>  
+    <name>枉法裁判</name>  
+    <docvec>法院 100 中院 100 高院 100 法官 100 腐败 101 无法无天 101 黑暗 101 有法不依 101 违法不究 101 公然违法 101 丧失司法公信力 101 公道何在 101 牛头不对马嘴 101 不法之徒 101 篡改 101 司法不公 101 勾结 101 出尔反尔 101 滥用司法权 101 荒唐 101 人面兽心 101 胡作非为 101 横行霸道 101 肆无忌惮 101 丧心病狂 101 厚颜无耻 101 草菅人命 101 践踏司法 101 无视法律 101 玩忽职守 101 拒不纠正 101 仗势欺人 101 惊天奇事 101 执法枉法 101 裁决不服 101 严重违法 101 以权压法 101 公正何在 101 造假证词 50 徇私枉法 50 枉法裁判 50 枉法裁决 50 徇私枉判 50 糊涂案 50 怪案 50 枉法 50 枉法驳回 50 阴阳两判 50 判决不公 50 糊涂办案 50 违法办案 50 徇私舞弊 50 天大错案 50 黑案 50 冤假错案 50 两种裁定 50 奇案 50 伪造证据 50 偷换证据 50 错案 50 审判不公 50 判刑过重 50 冤案 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>45</id>  
+    <name>拒不立案</name>  
+    <docvec>不作为 50 不立案 50 拒不立案 50 搁置 50 无故拖延 50 不受理 50 撤回材料 50 立案难 50 难立案 50 不收诉状 50 没号不接待 50 勉强立案 50 不予受理 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>46</id>  
+    <name>拖延判决</name>  
+    <docvec>拖延判决 50 不审不判 50 拖延审判 50 拖延判决 50 久不开庭 50 久不宣判 50 判决拖延 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>93</id>  
+    <name>股票类</name>  
+    <docvec>尾盘 50 大盘 50 权重股 50 股票 50 炒股 50 行情 50 股净资产 50 短线 50 股市 50 皇冠 50 文凭 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>95</id>  
+    <name>招生考试</name>  
+    <docvec>招生 50 招生简章 50 培训 50 辅导班 50 窃听器 50 项目 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>96</id>  
+    <name>热点敏感类</name>  
+    <docvec>冤情 50 暴力 50 狗屁 50 狗日的 50 枉法裁判 50 聚集 50 联名 50 猥亵 50 徇私枉法 50 公开信 50 无耻 50 助纣为虐 50 史上 50 风波 50 不容乐观 50 非议 50 谴责 50 不道德 50 丑陋 50 下流 50 无耻 50 邪恶 50 伪劣 50 见死不救 50 质疑 50 曝光 50 黑幕 50 举报 50 双轨 50 祸害 50 治标不治本 50 本末倒置 50 头痛医脚 50 欠缺 50 不到位 50 缺失 50 缺位 50 违法 50 违轨 50 曝光 50 被曝 50 歧视 50 反思 50 乱象 50 反思 50 怪圈 50 闹剧 50 点名 50 指责 50 压制 50 拷问 50 谁之过 50 性质恶劣 50 灭顶之灾 50 凶狠 50 残暴 50 滥用 50 草菅人命 50 天理难容 50 邪恶 50 罪魁祸首 50 祸起 50 祸根 50 异议 50 虚伪 50 欺上瞒下 50 瞒报 50 隐瞒 50 阴影 50 之痛 50 痛斥 50 悲观 50 偏执 50 狭隘 50 心酸 50 心痛 50 惨痛 50 讽刺 50 不容乐观 50 问号 50 浮夸 50 麻烦 50 抱怨 50 冤屈 50 冤案 50 委曲求全 50 诱惑 50 群情激奋 50 跟帖如云 50 被殴 50 致死 50 害群之马 50 严惩 50 明目张胆 50 令人发指 50 不寒而立 50 把柄 50 潜规则 50 黑幕 50 包庇 50 袒护 50 猥亵 50 徇私枉法 50 公开信 50 无耻 50 助纣为虐 50 史上 50 风波 50 不容乐观 50 非议 50 谴责 50 不道德 50 丑陋 50 下流 50 无耻 50 邪恶 50 见死不救 50 质疑 50 曝光 50 黑幕 50 举报 50 祸害 50 治标不治本 50 本末倒置 50 头痛医脚 50 欠缺 50 不到位 50 缺失 50 缺位 50 违法 50 违轨 50 曝光 50 被曝 50 歧视 50 反思 50 乱象 50 反思 50 怪圈 50 闹剧 50 点名 50 指责 50 压制 50 拷问 50 谁之过 50 性质恶劣 50 灭顶之灾 50 凶狠 50 残暴 50 滥用 50 草菅人命 50 天理难容 50 邪恶 50 罪魁祸首 50 祸起 50 祸根 50 异议 50 虚伪 50 欺上瞒下 50 瞒报 50 隐瞒 50 阴影 50 之痛 50 痛斥 50 悲观 50 偏执 50 狭隘 50 心酸 50 心痛 50 惨痛 50 讽刺 50 不容乐观 50 问号 50 浮夸 50 抱怨 50 冤屈 50 冤案 50 委曲求全 50 诱惑 50 群情激奋 50 跟帖如云 50 被殴 50 致死 50 害群之马 50 严惩 50 明目张胆 50 令人发指 50 不寒而立 50 把柄 50 潜规则 50 黑幕 50 包庇 50 袒护 50 公理何在 50 司法腐败 50 权大于法 50 权钱交易 50 违法办案 50 违法裁定 50 违法判决 50 痛诉 50 徇私枉法 50 冤案 50 颠倒黑白 50 错案 50 糊涂 50 轻判 50 猫腻 50 忽悠 50 法制无存 50 伪造案件 50 难以置信 50 伪造判决书 50 有案不立 50 有腐不查 50 冤假错案 50 逍遥法外 50 不依法：公道 50 形同虚设 50 一问 50 再问 50 三问 50 违背法律公正 50 违背法律 50 违法拍卖 50 暗箱操作 50 权力操纵 50 司法干预 50 恶意捏造 50 篡改 50 亵玩法律 50 以权谋私 50 弱智判决 50 申冤 50 暴力执法 50 离奇判决 50 猖狂 50 爆料 50 青天 50 说法 50 拒不受理 50 荒谬绝伦 50 游行 50 示威 50 服务差 50 态度差 50 服务不行 50 服务维修差 50 服务不到位 50 让人失望 50 不满意 50 维修电话假的 50 客服 50 水平差 50 态度差 50 很差 50 质量不给力 50 售后服务没有 50 售后服务极差 50 售后服务冒牌 50 服务太差 50 投诉 50 投诉到底 50 电话投诉 50 欺诈 50 毁约 50 投诉无门 50 投诉电话 50 打假投诉 50 不如以前 50 无法解决 50 不错 50 可靠 50 存大问题 50 太差 50 不省心 50 破质量 50 很差 50 一塌糊涂 50 破质量 50 质量差 50 质量监控不到位 50 质量一般 50 不上不下 50 质量不行 50 罗永浩 50 坏了 50 维修太贵 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>110</id>  
+    <name>无关数据类</name>  
+    <docvec>资讯 50 简讯 50 急聘 50 招聘 50 求职 50 发票代理 50 征婚 50 发票 50 注意事项 50 公告 50 贷款 50 招录 50 晒一晒 50 晒晒 50 长沙 50 徐州 50 文凭 50 李庄 50 地址 50 电话 50 租房 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>115</id>  
+    <name>维权信访</name>  
+    <docvec>绝食 50 拉横幅 50 条幅 50 横幅 50 拉横幅 50 门前抗议 50 牌子 50 空喊口号 50 上吊 50 喊冤 50 聚集 50 示威活动 50 集会 50 静坐 50 烧纸钱 50 举牌 50 标语 50 白布横幅 50 裸身抗议 50 大字报 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>118</id>  
+    <name>无关类</name>  
+    <docvec>代开 50 发票 50 考试 50 小姐 50 酒店 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>122</id>  
+    <name>银行营业网点服务</name>  
+    <docvec>态度差 50 服务真差 50 等候时间 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>123</id>  
+    <name>银行客服电话服务</name>  
+    <docvec>扛不住 50 网点不多 50 饶命 50 电话打不通 50 客服热线超级难打 50 太坑爹 50 投诉无渠道 50 网点少 50 差 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>124</id>  
+    <name>银行信用卡类</name>  
+    <docvec>套现 50 诈骗 50 透支 50 还款 50 附属卡 50 积分被吞 50 恶意透支 50 潜规则 50 分期付款 50 用卡贷款 50 被盗刷 50 借贷 50 发卡 50 坏账 50 信用卡 50 最黑 50 存款 50 利息 50 个人信用 50 贷记卡 50 商场分期 50 邮购分析 50 账单分期 50 假卡 50 废卡 50 附属卡 50 双币信用卡 50 主卡 50 信用额度 50 盗刷 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>125</id>  
+    <name>贷款类</name>  
+    <docvec>效率好低 50 业务水平低 50 忽悠办卡 50 垃圾 50 不能信 50 太烂 50 网银差 50 信用卡的网站太烂 50 个人贷款 50 房产贷款 50 抵押贷款 50 企业贷款 50 小额贷款 50 汽车贷款 50 房屋贷款 50 个人信用贷款 50 中小企业贷款 50 利息 50 短期贷款 50 中长期贷款 50 中期贷款 50 透支 50 委托贷款 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>126</id>  
+    <name>理财类</name>  
+    <docvec>网上基金 50 龙盈理财 50 稳盈 50 增盈 50 创盈 50 慧盈 50 金盈 50 华夏金 50 天天 50 外汇 50 活期与通知存款 50 贵宾专属增值服务 50 第三方存管 50 银行理财 50 保险理财 50 基金理财 50 信托理财 50 期货理财 50 个人理财 50 家庭理财 50 银行理财 50 投资理财 50 黄金理财 50 白领理财 50 育儿理财 50 理财 50 黄金理财 50 外汇理财 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>127</id>  
+    <name>网银类</name>  
+    <docvec>个人银行 50 证书版 50 签约版 50 网上企业银行 50 企业网银 50 集团结算中心 50 银企直联 50 来账信息 50 银企对账 50 批量转账 50 网上汇款 50 预植证书 50 个人理财 50 批量汇款 50 账户总览 50 网上基金 50 手机银行 50 网上支付 50 银关通 50 网银被盗 50 网上银行 50 账户查询 50 转账汇款 50 缴费支付 50 个人贷款 50 网银在线 50 网银 50 网银钱包 50 网上钱包 50 网银盾 50 网银转账 50 网银注册 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>133</id>  
+    <name>冰箱门问题</name>  
+    <docvec>冰箱门 100 弹力 101 自动弹开 101 弹出来 101 粘不牢 101 关不上 101 关不严 101 不严 101 关不紧 101 关不拢 101 用力推一推 101 没关上 101 闭门不紧 101 致命缺陷 101 胶带 101 检查门 101 开了 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>134</id>  
+    <name>冰箱积水结冰问题</name>  
+    <docvec>冰箱 100 积水 101 结冰 101 结冻 101 冰山 101 除水 101 除霜 101 霜 101 冰 101 有水 101 出水 101 水 101 潮湿 101 漏水 101 神物 101 粘住 101 拉不开 101 冰块 101 结冰严重 101 除冰 101 冰箱 100 保鲜层 101 冷藏室 101 冷冻室 101 冷冻层 101 积水 102 结冰 102 结冻 102 冰山 102 除水 102 除霜 102 霜 102 冰 102 有水 102 出水 102 水 102 潮湿 102 漏水 102 神物 102 粘住 102 拉不开 102 冰块 102 结冰严重 102 除冰 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>135</id>  
+    <name>冰箱隔板问题：</name>  
+    <docvec>冰箱隔板 100 碎了 101 裂开 101 裂了 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>136</id>  
+    <name>冰箱发烫问题：</name>  
+    <docvec>冰箱 100 发烫 101 烫 101 着火 101 热 101 冰箱 100 门 101 发烫 102 烫 102 着火 102 热 102 冰箱 100 壁 101 发烫 102 烫 102 着火 102 热 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>137</id>  
+    <name>冰箱生锈问题：</name>  
+    <docvec>冰箱 100 生锈 101 锈斑 101 冰箱 100 门 101 生锈 102 锈斑 102 冰箱 100 外壳 101 外表 101 生锈 102 锈斑 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>138</id>  
+    <name>冰箱噪声问题：</name>  
+    <docvec>冰箱 100 响 101 奇怪声音 101 声音大 101 响的来 101 噪声大 101 耳鸣 101 冰箱 100 噪声 101 噪音 101 大 102 冰箱 100 丝丝 101 嗡嗡 101 滴滴滴 101 响 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>139</id>  
+    <name>冰箱爆裂问题：</name>  
+    <docvec>冰箱 100 裂痕 101 爆裂 101 碎片 101 震惊 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>140</id>  
+    <name>冰箱其他问题：</name>  
+    <docvec>冰箱 100 制冷 101 不制冷 101 脏 101 裂缝 101 老鼠窝 101 报警 101 停机 101 风扇不转 101 频繁启动 101 密封条脱落 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>141</id>  
+    <name>洗衣机滚筒问题：</name>  
+    <docvec>洗衣机 100 有声音 101 异样声音 101 不动 101 洗衣机 100 滚筒 101 内筒 101 有声音 102 异样声音 102 不动 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>142</id>  
+    <name>洗衣机门的问题：</name>  
+    <docvec>洗衣机 100 打不开 101 锁住 101 开不了 101 怎么开 101 洗衣机 100 门 101 打不开 102 锁住 102 开不了 102 怎么开 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>143</id>  
+    <name>洗衣机甩干时震动问题</name>  
+    <docvec>洗衣机 100 乱跑 101 倒掉 101 响声越来越大 101 避震功能出问题 101 地震 101 自动前进 101 洗衣机 100 甩干 101 震动 101 乱跑 102 太厉害 102 倒掉 102 响声越来越大 102 机关枪 102 避震功能出问题 102 战斗机 102 地震 102 自动前进 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>144</id>  
+    <name>洗衣机密封圈发霉问题：</name>  
+    <docvec>洗衣机 100 发霉 101 麻烦 101 洗衣机 100 密封圈 101 发霉 102 麻烦 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>146</id>  
+    <name>洗衣机其他问题：</name>  
+    <docvec>洗衣机 100 故障 101 死循环 101 卡住 101 爆裂 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>150</id>  
+    <name>普通问题：</name>  
+    <docvec>西门子 100 博世 100 坏了 101 坏 101 次 101 迷信 101 稀烂 101 巨差 101 破 101 郁闷 101 质量 101 也就这样 101 不好 101 神经兮兮 101 强烈反对 101 绝望 101 毛病 101 折磨 101 换掉 101 不行 101 淘汰产品 101 没用了 101 问题 101 缺陷 101 有问题 101 出问题 101 又坏了 101 破烂 101 坑爹 101 坑姐 101 气人 101 悲催 101 倒霉 101 愤怒 101 不给力 101 太差 101 极差 101 很差 101 越来越差 101 真心差 101 垃圾 101 不能信任 101 TM 101 坑人 101 一定不能买 101 绝不买 101 都不买 101 坚决不用 101 也不用 101 坚决不买 101 千万别买 101 恨 101 苦逼 101 不合格 101 不靠谱 101 也不咋滴 101 出毛病 101 无良 101 不再相信 101 上黑名单 101 垃圾 101 给个解释 101 吹的 101 狗屁 101 心惊 101 麻烦 101 伤不起 101 天杀的 101 质量下滑 101 值得怀疑 101 价格虚高 101 质量存疑 101 价格贵 101 死贵 101 投诉 101 号称 101 破玩意 101 真他妈 101 太他妈的 101 极品 101 来气 101 不要脸 101 廉价 101 没用多久 101 砸 101 缺心眼 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>151</id>  
+    <name>爆炸燃烧等危机问题：</name>  
+    <docvec>西门子 100 博世 100 爆炸 101 燃烧 101 着火 101 受伤 101 爆裂 101 伤人 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>152</id>  
+    <name>油烟机问题</name>  
+    <docvec>油烟机 100 旧的 101 油污 101 坏了 101 滴下油 101 油 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>153</id>  
+    <name>洗碗机问题：</name>  
+    <docvec>洗碗机 100 猪狗不如 101 停了 101 手洗 101 不干净 101 滑腻感 101 时间混乱 101 显示屏乱跳 101 显示屏不显示 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>154</id>  
+    <name>冰箱管道外漏负面类</name>  
+    <docvec>冰箱 100 管道外漏 101 管道 101 管子 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>155</id>  
+    <name>洗衣机功能程序负面类</name>  
+    <docvec>洗衣机 100 故障 101 死循环 101 时间延长 101 延长 101 水烫手 101 洗衣机 100 程序 101 功能 101 故障 102 死循环 102 时间延长 102 延长 102</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>156</id>  
+    <name>煤气灶负面类</name>  
+    <docvec>煤气灶 100 灶台 100 坏掉 101 打不着火 101 打得着火 101 打火开关坏掉 101 没法做饭 101 难打火 101 爆裂 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>157</id>  
+    <name>热水器负面类</name>  
+    <docvec>热水器 100 电热水器 100 不靠谱 101 罢工 101 不着火 101 如何设定 101 不出热水 101 不合格 101 坏了 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>158</id>  
+    <name>其它检察类</name>  
+    <docvec>检察 40 检察院 40 检察官 40 抗诉 40 渎职 40 公诉 40 批捕 40 反贪污 40 上访 40 曹建明 40 徐安 40</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>159</id>  
+    <name>刑事侦查</name>  
+    <docvec>刑讯逼供 50 立案监督 50 刑事赔偿 50 批捕 50 批准逮捕 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>160</id>  
+    <name>公诉类</name>  
+    <docvec>公诉 50 追诉 50 提起诉讼 50 抗诉 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>161</id>  
+    <name>反贪污</name>  
+    <docvec>检察 100 反贪局 100 腐败 101 贿赂 101 贪污 101 落马 101 贪官 101 行贿 101 双轨 101 东窗事发 101 蛀虫 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>170</id>  
+    <name>医患关系类</name>  
+    <docvec>医患 50 医患纠纷 50 医患关系紧张 50 医患关系恶化 50 医患关系破裂 50 医患矛盾 50 医患对立 50 医患沟通 50 医患供求倒挂 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>171</id>  
+    <name>看病难、贵类</name>  
+    <docvec>挂号排队 50 挂号 50 黄牛挂号 50 专家号 50 高额药费 50 药费 50 医疗收费 50 开高价药 50 取药系统 50 过度医疗 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>172</id>  
+    <name>医德类</name>  
+    <docvec>红包 50 医者无德 50 医生走穴 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>173</id>  
+    <name>医院工程类</name>  
+    <docvec>新院 50 分院 50 招标 50 扩建 50 搬迁 50 设备 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>174</id>  
+    <name>医院部门类</name>  
+    <docvec>门诊 50 导医 50 就医咨询 50 领导用车 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>175</id>  
+    <name>病情分类</name>  
+    <docvec>流感疫情 50 Sars 50 疫情 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>176</id>  
+    <name>医疗方式</name>  
+    <docvec>医药代表 50 最贵的药 50 勾结医生 50 勾结药店 50 医疗保险 50 社保报销 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>177</id>  
+    <name>医疗问题</name>  
+    <docvec>医疗事故 50 医院失误 50 药房拿错药 50 病历丢失 50 丢病历 50 耽误治疗 50 误诊 50 乱诊断 50 医疗过错 50 院内感染 50 院内感染 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>178</id>  
+    <name>医院其他类</name>  
+    <docvec>高干病房 50 医生态度 50 无医德 50 医学败类 50 医生责任 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>179</id>  
+    <name>壁挂炉</name>  
+    <docvec>壁挂炉 100 轰隆隆响 101 没修好 101 让人抓狂 101 换板子 101 维修 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>180</id>  
+    <name>采暖</name>  
+    <docvec>采暖 100 标配 101 没有配置 101 效果不好 101 效果不良 101 效果差 101 管漏水 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>181</id>  
+    <name>锅炉</name>  
+    <docvec>锅炉 100 坏了 101 不咋地 101 噪音大 101 库存 101 水泵 101 膨胀罐 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>182</id>  
+    <name>热水器</name>  
+    <docvec>热水器 100 不出热水 101 温度调节 101 炸响 101 没打着火 101 罢工 101 水少不热 101 不靠谱 101 罢工 101 不着火 101 如何设定 101 不合格 101 坏了 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>183</id>  
+    <name>换热水箱</name>  
+    <docvec>换热水箱 100 粗糙 101 水漏 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>184</id>  
+    <name>滤清器</name>  
+    <docvec>滤清器 100 开封问题 101 保养收费 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>185</id>  
+    <name>雨刮</name>  
+    <docvec>雨刮 100 不起作用 101 不持久 101 摆动现象 101 刮不干净 101 很差 101 噪声大 101 雨刮条 101 跳动 101 越刮越花 101 锈迹 101 故障 101 烂 101 折腾 101 挂了 101 贵 101 垃圾 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>186</id>  
+    <name>包装技术</name>  
+    <docvec>包装 100 不满 101 被人拆过 101 丑陋 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>187</id>  
+    <name>客服电话</name>  
+    <docvec>客服电话 100 没人接 101 打不通 101 挂电话 101 态度恶劣 101 态度差 101 冷淡 101 电话催 101 反馈半天 101 维修工慢 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>188</id>  
+    <name>服务质量</name>  
+    <docvec>维修 100 维修师傅 100 师傅 100 乱收费 101 维修效率 101 没修好 101 装修施工不当 101 要求收费 101 用户承担 101 天价 101 水涨船高 101 狮子大开口 101 到处污渍 101 碰伤痕迹 101 还没修好 101 各种收费 101 维修费 101 上门费 101 配件费 101 配件贵 101 谁能修 101 苦逼 101 你妹的 101 修不好 101 开口 101 不配套 101 强盗 101 傲慢恶劣 101 没有赔偿 101 维修次数 101 安装 100 安装不了 101 程序繁琐 101 技术水平差 101 下次来修 101 技术不行 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>189</id>  
+    <name>服务态度</name>  
+    <docvec>上门维修 100 售后 100 维修 100 维修师傅 100 推三阻四 101 无人处理 101 一拖再拖 101 没有来 101 嘀咕 101 嫌路远 101 不见人影 101 坑了 101 TM窝火 101 千里迢迢 101 令人崩溃 101 谈判 101 巨差 101 最差 101 差劲 101 真心差 101 极差 101 那么差 101 差劲 101 摆设 101 忽悠 101 推卸责任 101 自认倒霉 101 坑爹 101 垃圾 101 恶心 101 太过分 101 等多久 101 很不客气 101 不来了 101 他妈的 101 反应慢 101 郁闷 101 无比失望 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>191</id>  
+    <name>国税领导</name>  
+    <docvec>王洪龙 100 国税局 101 国家税务局 101 GS局 101 国S局 101 税务所 101 税务局 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>192</id>  
+    <name>税种聚焦</name>  
+    <docvec>增值税 50 使用税 50 房产税 50 所得税 50 资源税 50 再投资退税 50 越权减免税 50 预提税 50 营业税 50 印花税 50 依法治税 50 烟叶税 50 烟草税 50 消费税 50 利得税 50 收益税 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>193</id>  
+    <name>偷税漏税</name>  
+    <docvec>偷税 50 逃税 50 漏税 50 避税 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>194</id>  
+    <name>涉税舆情</name>  
+    <docvec>税收 100 税务局 100 税官 100 国税局 100 GS局 100 国S局 100 黑心 101 黑 101 腐败 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>195</id>  
+    <name>税务办理</name>  
+    <docvec>税务登记证 50 税务部门 50 税收综合业务 50 税收专项检查 50 税务大厅 50 办税大厅 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>196</id>  
+    <name>医院领导类</name>  
+    <docvec>邱勇 50 王东进 50 丁义涛 50 胡娅莉 50 马戎 50 于成功 50 仇毓东 50 王志群 50 刘长建 50 刘宝瑞 50 孙贤敏 50 孙凌云 50 孙海翔 50 朱大龙 50 朱斌 50 吴亚夫 50 张苗 50 邹晓平 50 陈隆典 50 欧阳建 50 郑培德 50 姜允飞 50 施广飞 50 徐标 50 徐肇敏 50 翁文杰 50 郭宏骞 50 高下 50 梁维邦 50 葛春晓 50 蒋青 50 蒋健 50 谢敏 50 管文贤 50 谭谦 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>197</id>  
+    <name>产品服务类</name>  
+    <docvec>客户服务 50 客服 50 客户反馈 50 售后 50 售前 50 维修 50 服务员 50 服务态度 50 客服电话 50 维修师傅 50 安装 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>198</id>  
+    <name>产品运送类</name>  
+    <docvec>送货 50 运送 50 物流 50 发货 50 送个货 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>199</id>  
+    <name>反应速度类</name>  
+    <docvec>回应 50 反应 50 上门 50 售后 50 上门维修 50 维修 50 维修师傅 50</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+  <com.analyze.model.bean.persist.Category2> 
+    <id>200</id>  
+    <name>服务态度类</name>  
+    <docvec>营销员 100 导购 100 服务员 100 态度恶劣 101 忽悠 101 TMD 101 很屌 101 很差 101 太差 101 不好 101</docvec> 
+  </com.analyze.model.bean.persist.Category2>
+</root>
